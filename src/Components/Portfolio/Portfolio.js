@@ -1,32 +1,31 @@
-import React from 'react'
+import React from "react";
+import "./Portfolio.css";
 
-import './Portfolio.css'
-
-import containerPortfolio from './ContainerPortfolio/containerPortfolio'
-import './ContainerPortfolio/containerPortfolio.css'
-
-import DataPortfolio from './ContainerPortfolio/Data/DataPortfolio'
-
+import ContainerPortfolio from "./ContainerPortfolio/ContainerPortfolio";
+import dataPortfolio from "./ContainerPortfolio/Data/dataPortfolio";
 
 const Portfolio = () => {
-    return (
-        <div>
-            <div className='Portfolio'>
-                <h1 className='titlePortfolio'>PORTFOLIO</h1>
-            </div>
-            
-            <div className='container-info'>
-                <div className='boxPortfolioinfo'>
-                    <div className='expoPortfolio'>
-                        
-                        {DataPortfolio.map(props => <containerPortfolio key={props.id} image={props.image } url={props.url}/>)}
-                        
-                    </div>                                                                         
-                </div>
-            </div>
-                                  
-      </div>    
-    )
-}
+  return (
+    <div>
+      <div className="Portfolio">
+        <h1 className="titlePortfolio">PORTFOLIO</h1>
+      </div>
 
-export default Portfolio
+      <div className="container-info">
+        <div className="boxPortfolioinfo">
+          <div className="expoPortfolio">
+            {dataPortfolio.map((data) =>
+              <ContainerPortfolio
+                key={data.id}
+                image={data.image}
+                url={data.url}
+              />
+            )}
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Portfolio;

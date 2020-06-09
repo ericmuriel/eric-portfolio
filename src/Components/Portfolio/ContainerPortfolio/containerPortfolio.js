@@ -1,18 +1,14 @@
-import React from 'react'
+import React from "react";
+import "./ContainerPortfolio.css";
 
-import './containerPortfolio.css'
+const ContainerPortfolio = ({ image, url }) => {
+  return (
+    <div>
+      <a href={url}>
+        <img className="portmuestra" src={image} alt=""></img>
+      </a>
+    </div>
+  );
+};
 
-const containerPortfolio =(props)=> {
-       
-    return (
-        <div>                                
-            <a href={this.props.url}>
-                <img className='portmuestra' src={this.props.image} alt=''></img>
-            </a>
-        </div>                                                                         
-
-    )
-}
-
-export default containerPortfolio
-
+export default ContainerPortfolio;
