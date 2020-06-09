@@ -1,0 +1,15 @@
+.whoiam-container{
+    padding-top: 50px;
+    width: 300px;
+    display:grid;
+    grid-template-columns: 550px 550px;
+    grid-row: auto auto;
+    grid-column-gap: 82px;
+    grid-row-gap:75px;
+  }
+  .icon-skill{
+    float: left;
+    margin-right: 20px;
+    width: 85px;
+
+  }

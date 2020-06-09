@@ -1,0 +1,15 @@
+.Profile-Container{
+  display: flex;
+}
+.whoiam{
+    font-size: 60px;
+    width: 1200px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .Foto{
+    padding: 70px;
+  }
+  .FotoEric{
+    border-radius: 15px;
+  }
