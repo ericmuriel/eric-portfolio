@@ -6,10 +6,6 @@ import infoProfile from "./SimpleInfoBox/Data/infoProfile";
 const AboutMe = () => {
   return (
     <div className="Profile-Container">
-      <div className="Foto">
-        <img className="FotoEric" src="./Foto.jpg" width="480" alt="" />
-      </div>
-
       <div>
         <div className="titulo">
           <h1 className="whoiam">WHO I AM? WHAT ARE MY SKILLS?</h1>
@@ -22,13 +18,13 @@ const AboutMe = () => {
         </div>
 
         <div className="whoiam-container">
-          {infoProfile.map((infoBox) =>
+          {infoProfile.map((infoBox) => (
             <SimpleInfoBox
               key={infoBox.id}
               image={infoBox.image}
               text={infoBox.text}
             />
-          )}
+          ))}
         </div>
       </div>
     </div>

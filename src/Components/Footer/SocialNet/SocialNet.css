@@ -1,0 +1,8 @@
+.Footer {
+  background-color: burlywood;
+  display: flex;
+  justify-content: center;
+}
+.socialnet {
+  margin: 30px;
+}

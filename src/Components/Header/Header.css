@@ -1,44 +1,27 @@
-.Header{
-    background-color: #726DA8;
-    display: flex;
-    color: white;
-    }
+.Header {
+  background-color: whitesmoke;
+  display: flex;
+  color: white;
+}
 
-.Header-Container{
-    width: 100%;
-    display: flex;
-    justify-content: center;   
-  }
+.Header-Container {
+  display: flex;
+  justify-content: center;
+}
 
-.EricMuriel{
-    width: calc(100% / 3);
-    text-align: center;
-    padding: 10px;
-    margin-left: 10px;
-  }
+.EricMuriel {
+  width: calc(100% / 3);
+  text-align: center;
+  padding: 10px;
+  margin-left: 100px;
+}
+.ericTitle {
+  font-size: 80px;
+  color: black;
+  border: black;
+}
 
-  .Header-menu{
-    text-decoration: none;
-    color: white;
-  }
-.Nav-Menu{
-    width: 60%;
-    text-align: left;
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    margin-right: 30px;
-    margin: auto;
-  }
-.Nav-options{
-    list-style: none;
-    display: inline-block;
-    width: calc(100% / 3);
-    text-align: center;
-    padding: 10px;
-    margin-right: 20px;
-  }
-  .Nav-options:hover{
-    background-color: #B8336A;
-    border-radius: 15px;
-  }
+.Header-menu {
+  text-decoration: none;
+  color: white;
+}

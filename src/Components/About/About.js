@@ -4,7 +4,7 @@ import AboutMe from "./Aboutme/AboutMe";
 
 const About = () => {
   return (
-    <div className="ContenedorPerfil">
+    <div className="container-infoprofile">
       <AboutMe />
     </div>
   );

@@ -2,9 +2,11 @@ import React from "react";
 
 import "./App.css";
 
-import Header from "./components/Header/Header";
-import About from "./components/About/About";
-import Portfolio from "./components/Portfolio/Portfolio";
+import Header from "./Components/Header/Header";
+import About from "./Components/About/About";
+import Portfolio from "./Components/Portfolio/Portfolio";
+import Courses from "./Components/Courses/Courses";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <Header />
       <About />
       <Portfolio />
+      <Courses />
+      <Footer />
     </div>
   );
 }

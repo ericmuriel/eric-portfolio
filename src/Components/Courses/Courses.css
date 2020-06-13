@@ -1,0 +1,13 @@
+.StudiesandCourses {
+  justify-content: center;
+  display: flex;
+  padding-top: 50px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 550px 550px;
+  grid-row: auto auto;
+  grid-column-gap: 82px;
+  grid-row-gap: 75px;
+  background-color: whitesmoke;
+  padding-bottom: 120px;
+}
