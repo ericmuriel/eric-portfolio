@@ -4,7 +4,7 @@ import "./SimpleInfoBox.css";
 const SimpleInfoBox = ({ image, text }) => {
   return (
     <div>
-      <div>
+      <div className="containText">
         <img className="icon-skill" src={image} alt=""></img>
         <p>{text}</p>
       </div>

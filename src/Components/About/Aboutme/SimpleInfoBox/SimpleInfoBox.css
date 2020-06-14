@@ -1,15 +1,22 @@
-.whoiam-container{
-    padding-top: 50px;
-    width: 300px;
-    display:grid;
-    grid-template-columns: 550px 550px;
-    grid-row: auto auto;
-    grid-column-gap: 82px;
-    grid-row-gap:75px;
-  }
-  .icon-skill{
-    float: left;
-    margin-right: 20px;
-    width: 85px;
+.whoiam-container {
+  padding-top: 80px;
+  display: grid;
+  grid-template-columns: 550px 550px;
+  grid-row: auto auto;
+  grid-column-gap: 100px;
+  grid-row-gap: 100px;
+  text-align: left;
+  font-size: 20px;
+  justify-content: center;
+}
 
-  }
+.icon-skill {
+  float: left;
+  margin-right: 20px;
+  width: 85px;
+}
+.containText {
+  border: 4px solid #ffc44e;
+  border-radius: 15px;
+  padding: 20px;
+}

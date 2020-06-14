@@ -1,7 +1,8 @@
 .Header {
-  background-color: whitesmoke;
+  background-color: #ffc44e;
   display: flex;
   color: white;
+  padding-top: 50px;
 }
 
 .Header-Container {
@@ -10,15 +11,17 @@
 }
 
 .EricMuriel {
-  width: calc(100% / 3);
   text-align: center;
-  padding: 10px;
+
   margin-left: 100px;
 }
 .ericTitle {
   font-size: 80px;
-  color: black;
+  color: white;
   border: black;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px;
 }
 
 .Header-menu {

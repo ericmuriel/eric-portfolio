@@ -8,11 +8,36 @@
   width: 1200px;
   text-align: center;
   margin-bottom: 10px;
-  color: #594833;
+  color: #ffc44e;
+  padding: 10px;
+  box-shadow: 5px 10px 25px #ffc44e;
+  border-radius: 15px;
 }
 .Foto {
   padding: 70px;
 }
 .FotoEric {
   border-radius: 15px;
+  border-style: none;
+}
+
+.cvs-container {
+  margin-bottom: 100px;
+}
+.myCV-download {
+  margin: auto;
+  text-decoration: none;
+}
+a.myCV-download {
+  margin-right: 200px;
+}
+.imgdwnlCV {
+  border-radius: 10px;
+}
+.imgdwnlCV:hover {
+  background: url("/hoverdownload.png");
+  opacity: 0.5;
+}
+.dwnlCV {
+  padding: 10px;
 }

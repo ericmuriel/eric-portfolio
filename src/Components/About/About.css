@@ -1,6 +1,6 @@
 .container-infoprofile {
   display: flex;
-  background-color: whitesmoke;
+  background-color: white;
   padding-bottom: 100px;
-  padding-top: 100px;
+  padding-top: 50px;
 }

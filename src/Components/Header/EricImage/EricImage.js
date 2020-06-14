@@ -5,7 +5,7 @@ import "./EricImage.css";
 const EricImage = () => {
   return (
     <div>
-      <img className="ericPhoto" src="./Foto.jpg"></img>
+      <img className="ericPhoto" src="./Foto.jpg" alt=""></img>
     </div>
   );
 };

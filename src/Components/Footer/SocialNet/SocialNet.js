@@ -6,7 +6,7 @@ const SocialNet = ({ url, img }) => {
   return (
     <div className="socialnet">
       <a href={url}>
-        <img src={img} width="60"></img>
+        <img src={img} width="60" alt=""></img>
       </a>
     </div>
   );

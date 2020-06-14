@@ -8,6 +8,18 @@
   grid-row: auto auto;
   grid-column-gap: 82px;
   grid-row-gap: 75px;
-  background-color: whitesmoke;
+  background-color: white;
   padding-bottom: 120px;
+}
+.titleContainer {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  padding-bottom: 50px;
+}
+.coursesStudies {
+  color: #ffc44e;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 5px 10px 25px;
 }

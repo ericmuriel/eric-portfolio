@@ -1,5 +1,6 @@
 .ericPhoto {
-  width: 350px;
-  border-radius: 400px;
+  width: 300px;
+  border-radius: 50%;
   margin-left: 350px;
+  margin-bottom: 50px;
 }

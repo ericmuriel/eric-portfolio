@@ -9,7 +9,7 @@ const Portfolio = () => {
   return (
     <div>
       <div className="Portfolio">
-        <h1 className="titlePortfolio">portoflio</h1>
+        <h1 className="titlePortfolio">PORTFOLIO && COURSES </h1>
       </div>
 
       <div className="container-info">

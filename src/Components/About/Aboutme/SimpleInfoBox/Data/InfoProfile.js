@@ -9,10 +9,10 @@ export default [
     id: "game-developer",
     image: "/juegos.png",
     text:
-      "I'm Mobile Game Developer I do videogames for Console like PS4, Nintendo Switch or Xbox. I use Unity 2D, 3D and programming with C#. I was working in <a href='http://www.ivanovichgames.com/'>Ivanovich Games S.L</a> in OPERATION WARCADE VR for PS4.",
+      "I'm Mobile Game Developer I do videogames for Console like PS4, Nintendo Switch or Xbox. I use Unity 2D, 3D and programming with C#. I was working in OPERATION WARCADE VR for PS4 in Ivanovich Games S.L.",
   },
   {
-    id: "game-developer",
+    id: "game-developer-mobile",
     image: "/telefono.png",
     text:
       "I'm Game Developer. I do videogames for Mobile with Unity 2D,3D programming with C#. I use it for this last 3 years making a lot of casual games and not-casual games. I do videogames for Console too but this I will explain you in the next skill zone.",
@@ -21,6 +21,6 @@ export default [
     id: "3DGeneralist",
     image: "/representacion.png",
     text:
-      "I'm a 3D Generalist and Audiovisual Producer. I use this 3Ds Max and Zbrush to make models, PhotoShop and Substance Painter to paint textures, Adobe After Effects and Adobe Premiere to produce Audiovisual content.",
+      "I'm a 3D Generalist and Audiovisual Producer. I use this 3Ds Max and Zbrush to make models and 3D animations, PhotoShop and Substance Painter to paint textures, Adobe After Effects and Adobe Premiere to produce Audiovisual content.",
   },
 ];
