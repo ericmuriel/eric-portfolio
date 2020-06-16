@@ -19,7 +19,7 @@ const AboutMe = () => {
         </div>
 
         <div className="titulo">
-          <h1 className="whoiam">WHO I AM? WHAT ARE MY SKILLS?</h1>
+          <h1 className="iam">WHO I AM? WHAT ARE MY SKILLS?</h1>
         </div>
 
         <div className="whoiam-container">

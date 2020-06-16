@@ -3,7 +3,7 @@
   margin: auto;
   margin-bottom: 50px;
 }
-.whoiam {
+.iam {
   font-size: 60px;
   width: 1200px;
   text-align: center;
@@ -40,4 +40,43 @@ a.myCV-download {
 }
 .dwnlCV {
   padding: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="Profile-Container"] {
+    width: 100%;
+    display: block;
+  }
+  [class*="iam"] {
+    width: 95%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 50px;
+  }
+  [class*="Foto"] {
+    width: 100%;
+  }
+  [class*="FotoEric"] {
+    width: 100%;
+  }
+  [class*="cvs-container"] {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  [class*="myCV-download"] {
+    width: 100%;
+  }
+  a.myCV-download {
+    width: 100%;
+    display: block;
+    margin-left: 0px;
+  }
+  [class*="imgdwnlCV"] {
+    width: 50%;
+  }
+  [class*="dwnlCV"] {
+    width: 70%;
+  }
 }

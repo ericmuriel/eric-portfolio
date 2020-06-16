@@ -4,3 +4,12 @@
   padding-bottom: 100px;
   padding-top: 50px;
 }
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="container-infoprofile"] {
+    width: 100%;
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 50px;
+  }
+}

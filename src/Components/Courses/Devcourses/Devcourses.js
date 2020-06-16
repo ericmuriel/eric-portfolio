@@ -14,10 +14,16 @@ const Devcourses = ({ title, person, subtitle, year, url, text }) => {
       </h3>
 
       <p className="textCourses">{text}</p>
-
-      <a href={url} className="buttonCourse">
-        See Course
-      </a>
+      <div className="seecourse">
+        <a
+          href={url}
+          className="buttonCourse"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          See Course
+        </a>
+      </div>
     </div>
   );
 };

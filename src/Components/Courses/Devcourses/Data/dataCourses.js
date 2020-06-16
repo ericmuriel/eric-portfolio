@@ -1,17 +1,17 @@
 export default [
   {
-    id: "web",
-    title: "FLUTTER O REACT NATIVE",
-    person: "Miguel Ángel Durán García o otro",
-    subtitle: " nose donde ni cuando",
+    id: "bootcamp-react",
+    title: "Free React Bootcamp",
+    person: "Tyler McGinnis",
+    subtitle: " in React community. Finished in ",
     year: " 2020",
     text:
-      "Empezado en 2020 pero todavia no se cuando lo acbaare ni que hare esto es un PLACEHOLDER BIEN GORDO.",
-    url: "http://appsfactory.cat/",
+      "Around 7 hours of Free Bootcamp in which I learned Composition model, Unidirectional dataflow, Explicit mutations, Components, Fetch external data, React Hooks and States. At the end of bootcamp I had to create one React App and React Router ",
+    url: "https://ui.dev/free-react-bootcamp/",
   },
   {
     id: "learn-react",
-    title: "LEARN REACT JS",
+    title: "Learn React JS",
     person: "Miguel Ángel Durán García",
     subtitle: " on Udemy. Finished in",
     year: " 2020",
@@ -26,12 +26,12 @@ export default [
     subtitle: " Grupo Aspasia",
     year: " Feb 2019 - July 2019",
     text:
-      "620 hours. Course in which I learned Front-End (HTML5, CSS3, JavaScript ES6+...), server with Node.js and Express, and libraries like React.",
+      "620 hours. Course in which I learned Front-End (HTML5, CSS3, JavaScript ES6+...), server with Node.js and Express, and libraries like React. Videogames with Unity 3D and AndroidStudio with Java.",
     url: "http://appsfactory.cat/",
   },
   {
     id: "3dgeneralist",
-    title: "S.TECHN IN 3D-2D ANIMATIONS, GAMES AND INT.ENVIRONMENTS",
+    title: "S.Tech in 3D-2D Animations, Games and Int.Environments",
     person: "Jesuites Sarrià",
     subtitle: " in Barcelona.",
     year: " Sep 2016 - May 2018",

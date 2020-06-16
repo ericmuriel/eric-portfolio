@@ -27,6 +27,30 @@
   display: grid;
   grid-template-columns: 200px 200px 200px;
   grid-row: auto auto;
-  grid-column-gap: 180px;
+  grid-column-gap: 220px;
   grid-row-gap: 75px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="Portfolio"] {
+    display: block;
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+  [class*="titlePortfolio"] {
+    padding-bottom: 20px;
+    font-size: 50px;
+    color: #ffc44e;
+    border-radius: 15px;
+    box-shadow: 5px 10px 25px;
+    margin: auto;
+  }
+
+  [class*="expoPortfolio"] {
+    display: block;
+
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
 }

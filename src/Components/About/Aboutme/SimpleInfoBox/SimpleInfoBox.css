@@ -20,3 +20,24 @@
   border-radius: 15px;
   padding: 20px;
 }
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="whoiam-container"] {
+    display: block;
+    padding-top: 20px;
+    text-align: left;
+    font-size: 15px;
+    justify-content: center;
+  }
+  [class*="icon-skill"] {
+    float: left;
+    margin-right: 10px;
+    width: 35px;
+  }
+  [class*="containText"] {
+    border: 4px solid #ffc44e;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 10px;
+  }
+}
