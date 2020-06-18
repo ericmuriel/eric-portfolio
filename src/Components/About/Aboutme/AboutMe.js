@@ -7,7 +7,7 @@ import infoProfile from "./SimpleInfoBox/Data/infoProfile";
 const AboutMe = () => {
   return (
     <div className="Profile-Container">
-      <div>
+      <div className="subprofilecontainer">
         <div className="cvs-container">
           <a className="myCV-download" href="./ENG-CVEricMuriel.pdf" download>
             <img className="imgdwnlCV" src="./downloadmycv.png" alt=""></img>

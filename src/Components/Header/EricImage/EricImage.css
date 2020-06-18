@@ -4,7 +4,18 @@
   margin-left: 350px;
   margin-bottom: 50px;
 }
-
+@media only screen and (max-width: 1200px) {
+  [class*="ericPhoto"] {
+    width: 50%;
+    margin: auto;
+  }
+}
+@media only screen and (max-width: 992px) {
+  [class*="ericPhoto"] {
+    width: 50%;
+    margin: auto;
+  }
+}
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
   [class*="ericPhoto"] {

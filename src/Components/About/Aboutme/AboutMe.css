@@ -42,6 +42,66 @@ a.myCV-download {
   padding: 10px;
 }
 
+@media only screen and (max-width: 1200px) {
+  /* For mobile phones: */
+  [class*="Profile-Container"] {
+    width: 100%;
+  }
+  [class*="iam"] {
+    width: 95%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 50px;
+    margin: auto;
+  }
+  [class*="Foto"] {
+    width: 100%;
+  }
+  [class*="FotoEric"] {
+    width: 100%;
+  }
+  [class*="cvs-container"] {
+    margin-bottom: 30px;
+  }
+  [class*="myCV-download"] {
+    width: 100%;
+  }
+  [class*="subprofilecontainer"] {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  /* For mobile phones: */
+  [class*="Profile-Container"] {
+    width: 100%;
+  }
+  [class*="iam"] {
+    width: 95%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 50px;
+    margin: auto;
+  }
+  [class*="Foto"] {
+    width: 100%;
+  }
+  [class*="FotoEric"] {
+    width: 100%;
+  }
+  [class*="cvs-container"] {
+    margin-bottom: 30px;
+  }
+  [class*="myCV-download"] {
+    width: 100%;
+  }
+  [class*="subprofilecontainer"] {
+    width: 100%;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
   [class*="Profile-Container"] {
@@ -77,6 +137,6 @@ a.myCV-download {
     width: 50%;
   }
   [class*="dwnlCV"] {
-    width: 70%;
+    width: 40%;
   }
 }

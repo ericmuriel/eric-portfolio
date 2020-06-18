@@ -16,10 +16,10 @@
 
 .container-info {
   background-color: white;
-  display: flex;
   align-items: center;
   text-align: center;
   justify-content: center;
+  display: flex;
 }
 .expoPortfolio {
   padding-top: 50px;
@@ -31,10 +31,29 @@
   grid-row-gap: 75px;
 }
 
+@media only screen and (max-width: 1200px) {
+  [class*="expoPortfolio"] {
+    grid-template-columns: 200px 200px 200px;
+    justify-content: center;
+    margin-right: auto;
+  }
+  [class*="container-info"] {
+    margin-right: 30px;
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  /* For mobile phones: */
+  [class*="expoPortfolio"] {
+    grid-template-columns: 200px 200px;
+    justify-content: center;
+    margin-right: 80px;
+  }
+}
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
   [class*="Portfolio"] {
-    display: block;
     font-size: 20px;
     padding-bottom: 10px;
   }
@@ -48,9 +67,12 @@
   }
 
   [class*="expoPortfolio"] {
-    display: block;
-
-    padding-bottom: 50px;
-    padding-top: 50px;
+    grid-template-columns: 200px 200px;
+    grid-column-gap: 180px;
+    grid-row-gap: 75px;
+    margin-right: 70px;
+  }
+  [class*="container-info"] {
+    margin-right: 30px;
   }
 }

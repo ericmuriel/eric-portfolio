@@ -9,7 +9,7 @@ const Courses = () => {
   return (
     <div>
       <div className="titleContainer">
-        <h1 className="coursesStudies">COURSES AND STUDIES</h1>
+        <h1 className="textStudies">COURSES AND STUDIES</h1>
       </div>
       <div className="StudiesandCourses">
         {dataCourses.map((courses) => (

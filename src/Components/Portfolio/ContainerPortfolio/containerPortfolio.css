@@ -9,6 +9,28 @@
 .portmuestra:hover {
   opacity: 0.5;
 }
+@media only screen and (max-width: 1315px) {
+  /* For mobile phones: */
+  [class*="portmuestra"] {
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+  }
+}
+@media only screen and (max-width: 992px) {
+  /* For mobile phones: */
+  [class*="portmuestra"] {
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+  }
+}
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
   [class*="portmuestra"] {
