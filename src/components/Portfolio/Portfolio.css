@@ -25,20 +25,20 @@
   padding-top: 50px;
   padding-bottom: 150px;
   display: grid;
-  grid-template-columns: 200px 200px 200px;
+  grid-template-columns: 320px 320px 320px;
   grid-row: auto auto;
-  grid-column-gap: 220px;
+  grid-column-gap: 100px;
   grid-row-gap: 75px;
 }
 @media only screen and (max-width: 1366px) {
   /* For mobile phones: */
   [class*="expoPortfolio"] {
-    grid-template-columns: 200px 200px;
+    grid-template-columns: 320px 320px;
   }
 }
 @media only screen and (max-width: 1200px) {
   [class*="expoPortfolio"] {
-    grid-template-columns: 200px 200px;
+    grid-template-columns: 320px 320px;
     justify-content: center;
     margin-right: auto;
   }
@@ -50,15 +50,14 @@
 @media only screen and (max-width: 1024px) {
   /* For mobile phones: */
   [class*="expoPortfolio"] {
-    grid-template-columns: 200px 200px;
+    grid-template-columns: 320px 320px;
   }
 }
 @media only screen and (max-width: 992px) {
   /* For mobile phones: */
   [class*="expoPortfolio"] {
-    grid-template-columns: 200px 200px;
+    grid-template-columns: 320px 320px;
     justify-content: center;
-    margin-right: 80px;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -77,10 +76,8 @@
   }
 
   [class*="expoPortfolio"] {
-    grid-template-columns: 200px;
-    grid-column-gap: 180px;
+    grid-template-columns: 320px;
     grid-row-gap: 75px;
-    margin-right: 70px;
   }
   [class*="container-info"] {
     margin-right: 30px;
