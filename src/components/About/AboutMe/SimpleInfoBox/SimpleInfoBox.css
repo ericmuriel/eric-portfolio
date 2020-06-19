@@ -28,7 +28,7 @@
     width: 85px;
   }
 }
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1069px) {
   [class*="whoiam-container"] {
     grid-template-columns: 400px 400px;
   }
@@ -44,7 +44,7 @@
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 898px) {
   /* For mobile phones: */
   [class*="whoiam-container"] {
     display: block;

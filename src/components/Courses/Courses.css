@@ -39,7 +39,7 @@
     grid-column-gap: 100px;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 898px) {
   /* For mobile phones: */
   [class*="StudiesandCourses"] {
     width: 100%;

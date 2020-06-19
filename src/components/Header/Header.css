@@ -29,7 +29,7 @@
   color: white;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1290px) {
   [class*="Header-Container"] {
     justify-content: center;
     padding-bottom: 40px;
@@ -57,7 +57,7 @@
   }
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1133px) {
   [class*="Header"] {
     width: 100%;
   }

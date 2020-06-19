@@ -30,7 +30,12 @@
   grid-column-gap: 220px;
   grid-row-gap: 75px;
 }
-
+@media only screen and (max-width: 1366px) {
+  /* For mobile phones: */
+  [class*="expoPortfolio"] {
+    grid-template-columns: 200px 200px;
+  }
+}
 @media only screen and (max-width: 1200px) {
   [class*="expoPortfolio"] {
     grid-template-columns: 200px 200px;
