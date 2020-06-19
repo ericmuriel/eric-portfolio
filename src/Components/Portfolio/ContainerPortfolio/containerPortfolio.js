@@ -2,7 +2,7 @@ import React from "react";
 
 import "./ContainerPortfolio.css";
 
-const ContainerPortflio = ({ image, url }) => {
+const ContainerPortfolio = ({ image, url }) => {
   return (
     <div>
       <a href={url} target="_blank" rel="noopener noreferrer">
