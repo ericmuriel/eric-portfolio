@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import AboutMe from "./Aboutme/AboutMe";
+import AboutMe from "./AboutMe/AboutMe";
 
 const About = () => {
   return (

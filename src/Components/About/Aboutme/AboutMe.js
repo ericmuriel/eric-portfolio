@@ -2,7 +2,7 @@ import React from "react";
 import "./AboutMe.css";
 
 import SimpleInfoBox from "./SimpleInfoBox/SimpleInfoBox";
-import infoProfile from "./SimpleInfoBox/Data/infoProfile";
+import infoProfile from "./SimpleInfoBox/Data/InfoProfile";
 
 const AboutMe = () => {
   return (
@@ -19,7 +19,7 @@ const AboutMe = () => {
         </div>
 
         <div className="titulo">
-          <h1 className="iam">WHO I AM? WHAT ARE MY SKILLS?</h1>
+          <h1 className="iam">WHO AM I? WHAT ARE MY SKILLS?</h1>
         </div>
 
         <div className="whoiam-container">

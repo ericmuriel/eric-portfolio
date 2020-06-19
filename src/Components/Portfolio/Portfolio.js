@@ -3,7 +3,7 @@ import "./Portfolio.css";
 
 import ContainerPortfolio from "./ContainerPortfolio/ContainerPortfolio";
 
-import dataPortfolio from "./ContainerPortfolio/Data/dataPortfolio";
+import dataPortfolio from "./ContainerPortfolio/Data/DataPortfolio";
 
 const Portfolio = () => {
   return (
