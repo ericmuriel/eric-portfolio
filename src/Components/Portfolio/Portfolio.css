@@ -33,7 +33,7 @@
 
 @media only screen and (max-width: 1200px) {
   [class*="expoPortfolio"] {
-    grid-template-columns: 200px 200px 200px;
+    grid-template-columns: 200px 200px;
     justify-content: center;
     margin-right: auto;
   }
@@ -42,7 +42,12 @@
     display: flex;
   }
 }
-
+@media only screen and (max-width: 1024px) {
+  /* For mobile phones: */
+  [class*="expoPortfolio"] {
+    grid-template-columns: 200px 200px;
+  }
+}
 @media only screen and (max-width: 992px) {
   /* For mobile phones: */
   [class*="expoPortfolio"] {
@@ -67,7 +72,7 @@
   }
 
   [class*="expoPortfolio"] {
-    grid-template-columns: 200px 200px;
+    grid-template-columns: 200px;
     grid-column-gap: 180px;
     grid-row-gap: 75px;
     margin-right: 70px;

@@ -27,9 +27,8 @@
   /* For mobile phones: */
   [class*="StudiesandCourses"] {
     width: auto;
-    margin-right: 40px;
-    grid-template-columns: 350px 400px;
-    grid-column-gap: 150px;
+    grid-template-columns: 400px 400px;
+    grid-column-gap: 100px;
   }
 }
 @media only screen and (max-width: 992px) {

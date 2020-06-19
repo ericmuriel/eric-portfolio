@@ -3,7 +3,7 @@ export default [
     id: "web",
     image: "/codificacion.png",
     text:
-      "I'm a Web programmer. This web is programmed with React.Js and Node.Js. My skills,languages and frameworks are HTML, CSS, Javascript, React.JS, Node.JS, Java, AndroidStudio and more..",
+      "I'm a Web programmer. This web is programmed with React.Js and Node.Js. My skills, languages and frameworks are HTML, CSS, Javascript, React.JS, Node.JS, Java, AndroidStudio, little knowldege about Boostrap and Jquery and more..",
   },
   {
     id: "game-developer",
@@ -21,6 +21,6 @@ export default [
     id: "3DGeneralist",
     image: "/representacion.png",
     text:
-      "I'm a 3D Generalist and Audiovisual Producer. I use this 3Ds Max and Zbrush to make models and 3D animations, PhotoShop and Substance Painter to paint textures, Adobe After Effects and Adobe Premiere to produce Audiovisual content.",
+      "I'm a 3D Generalist and Audiovisual Producer. I use 3Ds Max to make models and animate it and Zbrush to make models in 3D high poly version, PhotoShop and Substance Painter to paint textures, Adobe After Effects and Adobe Premiere to produce Audiovisual content.",
   },
 ];

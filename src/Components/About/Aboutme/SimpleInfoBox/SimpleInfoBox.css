@@ -1,7 +1,7 @@
 .whoiam-container {
   padding-top: 80px;
   display: grid;
-  grid-template-columns: 550px 550px;
+  grid-template-columns: 500px 500px;
   grid-row: auto auto;
   grid-column-gap: 100px;
   grid-row-gap: 100px;
@@ -22,35 +22,25 @@
 }
 
 @media only screen and (max-width: 1200px) {
-  [class*="whoiam-container"] {
-    width: auto;
-    grid-template-columns: 230px 450px;
-    grid-column-gap: 300px;
-  }
   [class*="icon-skill"] {
     float: left;
     margin-right: 20px;
     width: 85px;
   }
-  [class*="containText"] {
-    height: 230px;
-    width: 450px;
+}
+@media only screen and (max-width: 1024px) {
+  [class*="whoiam-container"] {
+    grid-template-columns: 400px 400px;
   }
 }
 @media only screen and (max-width: 992px) {
   [class*="whoiam-container"] {
-    width: auto;
-    grid-template-columns: 230px 350px;
-    grid-column-gap: 200px;
+    grid-template-columns: 400px 400px;
   }
   [class*="icon-skill"] {
     float: left;
     margin-right: 20px;
     width: 85px;
-  }
-  [class*="containText"] {
-    height: 230px;
-    width: 350px;
   }
 }
 
@@ -72,8 +62,6 @@
     border: 4px solid #ffc44e;
     border-radius: 15px;
     padding: 20px;
-    height: 130px;
-    width: 93%;
     font-size: 20px;
     margin-top: 20px;
   }

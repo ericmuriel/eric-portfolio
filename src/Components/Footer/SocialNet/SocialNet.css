@@ -5,31 +5,40 @@
 }
 .socialnet {
   margin: 30px;
+  margin-right: 50px;
+}
+.copyright {
+  padding: 0.2px;
+  background-color: #a56e00;
+}
+.titlecopyright {
+  color: white;
 }
 @media only screen and (max-width: 1200px) {
   /* For mobile phones: */
-  [class*="Footer"] {
-    width: 100%;
-  }
+
   [class*="socialnet"] {
     margin: 20px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  /* For mobile phones: */
+
+  [class*="socialnet"] {
+    margin-right: 50px;
   }
 }
 @media only screen and (max-width: 992px) {
   /* For mobile phones: */
-  [class*="Footer"] {
-    width: 100%;
-  }
+
   [class*="socialnet"] {
-    margin: 20px;
+    margin-right: 50px;
   }
 }
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
-  [class*="Footer"] {
-    width: 100%;
-  }
+
   [class*="socialnet"] {
-    margin: 20px;
+    margin-right: 40px;
   }
 }

@@ -30,17 +30,19 @@
 }
 
 @media only screen and (max-width: 1200px) {
-  [class*="Header"] {
-    width: 100%;
-  }
   [class*="Header-Container"] {
     justify-content: center;
-    padding-bottom: 10px;
+    padding-bottom: 40px;
   }
   [class*="EricMuriel"] {
     width: 100%;
     margin: auto;
   }
+
+  [class*="subtitleheader"] {
+    margin-right: 70px;
+  }
+
   [class*="ericTitle"] {
     font-size: 80px;
     color: white;
@@ -50,25 +52,11 @@
     box-shadow: 5px 10px;
     margin-right: 100px;
   }
-  [class*="subtitleheader"] {
-    margin-right: 70px;
-  }
   [class*="Header-menu"] {
     width: 100%;
   }
 }
 
-[class*="ericTitle"] {
-  font-size: 40px;
-  color: white;
-  border: black;
-  border: 1px solid;
-  padding: 10px;
-  box-shadow: 5px 10px;
-}
-[class*="Header-menu"] {
-  width: 100%;
-}
 @media only screen and (max-width: 992px) {
   [class*="Header"] {
     width: 100%;
